@@ -1,0 +1,30 @@
+---
+site_name: Blog
+site_description: Blog
+site_url: https://claha.github.io/blog
+repo_url: https://github.com/claha/blog
+
+plugins:
+  - search
+  - tags
+  - blog:
+      blog_dir: .
+  - rss:
+      match_path: posts/.*
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode

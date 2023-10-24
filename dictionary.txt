@@ -1,0 +1,9 @@
+claes
+claha
+codespell
+gitlint
+hallström
+markdownlint
+mdformat
+mkdocs
+venv
