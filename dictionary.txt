@@ -1,3 +1,4 @@
+automerge
 claes
 claha
 codespell
