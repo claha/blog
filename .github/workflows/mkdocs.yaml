@@ -43,4 +43,4 @@ jobs:
         with:
           path: './site'
       - id: deployment
-        uses: actions/deploy-pages@v4.0.3
+        uses: actions/deploy-pages@v4.0.4
