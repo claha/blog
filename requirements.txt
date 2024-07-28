@@ -2,4 +2,4 @@ mkdocs==1.6.0
 mkdocs-blog-plugin==0.25
 mkdocs-material==9.5.30
 mkdocs-rss-plugin==1.15.0
-pre-commit==3.7.1
+pre-commit==3.8.0
